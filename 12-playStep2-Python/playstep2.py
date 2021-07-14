@@ -34,5 +34,29 @@
 # Hint: Also, remember to use % to get the one's digit, and use //= to get rid of the one's digit.
 
 def playstep2(hand, dice):
-	# your code goes here
-	pass
+    flag=False
+    l=[]
+    l2=[]
+    second=dice
+    s=""
+    for i in range(3):
+        a=hand
+        r=a%10
+        hand=hand//10
+        if r in l:
+            n=10*r+r
+            flag=True
+            d=dice%10
+            s2=str(dice//10)
+            s=str(n)+str(d)
+            res = "".join(sorted(s))
+            return (int(res[::-1]), second//10)
+        else:
+            l.append(r)
+    if flag==False:
+        le=len(l)
+        n=str(l[2])
+        s=str(dice%100)+str(n)
+        res = "".join(sorted(s))
+        return (int(res[::-1]), second//100)
+

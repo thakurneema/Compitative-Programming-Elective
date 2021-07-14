@@ -1,0 +1,172 @@
+{
+    "set_kth_digit.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 17:57:28",
+            "keyStrokeInfo": "\r\n",
+            "position": "5,44"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 17:57:29",
+            "keyStrokeInfo": "\r\n",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 17:57:29",
+            "keyStrokeInfo": "(468, 0, 1, 461), (468, 1, 1, 418),\r\n    (468, 2, 1, 168), (468, 3, 1, 1468),\r\n    (-468, 3, 1, -1468)",
+            "position": "7,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 17:57:33",
+            "keyStrokeInfo": "# ",
+            "position": "7,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 17:57:40",
+            "keyStrokeInfo": "",
+            "position": "8,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 17:57:41",
+            "keyStrokeInfo": "",
+            "position": "8,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 17:57:41",
+            "keyStrokeInfo": "",
+            "position": "8,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 17:57:44",
+            "keyStrokeInfo": "",
+            "position": "8,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 17:57:47",
+            "keyStrokeInfo": "",
+            "position": "9,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 17:57:47",
+            "keyStrokeInfo": "",
+            "position": "9,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 17:57:47",
+            "keyStrokeInfo": "",
+            "position": "9,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 17:57:48",
+            "keyStrokeInfo": "",
+            "position": "9,3"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 14,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 18:25:38",
+            "keyStrokeInfo": "def playstep2(hand, dice):\r\n    # your code goes here\r\n    previous = list(str(hand))\r\n    future = list(str(dice))\r\n \r\n    if len(future) > 1:\r\n        if previous[0] == previous[1]:\r\n            previous[2] = future[-1]\r\n            future = future[:-1]\r\n \r\n        elif previous[1] == previous[2]:\r\n            previous[0] = future[-1]\r\n            future = future[:-1]\r\n            print(future, 1)",
+            "position": "15,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 18:25:57",
+            "keyStrokeInfo": "\r\n\t\t\t",
+            "position": "28,29"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 18:25:58",
+            "keyStrokeInfo": "",
+            "position": "29,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 18:25:59",
+            "keyStrokeInfo": "else:\r\n",
+            "position": "29,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 18:26:11",
+            "keyStrokeInfo": "\r\n\t\t\t",
+            "position": "29,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 18:26:36",
+            "keyStrokeInfo": "\r\n\t\t\t",
+            "position": "29,8"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 14,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 18:26:37",
+            "keyStrokeInfo": "if previous[0] < future[-1]:\r\n                previous[1] = previous[0]\r\n                previous[0] = future[-1]\r\n                previous[2] = future[-2]\r\n                future = future[:-2]\r\n            else:\r\n                previous[1] = future[-1]\r\n                previous[2] = future[-2]\r\n                future = future[:-2]\r\n                \r\n    previous.sort(reverse=True)\r\n    previous = int(\"\".join(previous))\r\n    future = int(\"\".join(future))\r\n    return (previous, future)\r\n",
+            "position": "30,4"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 18:27:14",
+            "keyStrokeInfo": "\r\n\r\ndef fun_set_kth_digit(n, k, d):\r\n\t\treturn 0\r\n",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 19:25:16",
+            "keyStrokeInfo": "def fun_set_kth_digit(n, k, d):\r\n    flag = False\r\n    if(n < 0):\r\n        n = -n\r\n        flag = True\r\n    count = 0\r\n    res = 0\r\n    while(count<=k or  n > 0):\r\n        r = n % 10\r\n        if count == k:\r\n            res += (d * (10 ** count))\r\n        else:\r\n            res += (r * (10 ** count))\r\n        count += 1\r\n        n = n // 10\r\n \r\n    if flag:\r\n        res = -res\r\n    return res",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 19:25:19",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 19:25:19",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 19:25:19",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        }
+    ]
+}
