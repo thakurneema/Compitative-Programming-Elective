@@ -1,0 +1,11 @@
+{
+    "nearestodd.py": [
+        {
+            "operation": "PASTE",
+            "lines": 7,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 21:00:22",
+            "keyStrokeInfo": "import math\r\ndef fun_nearestodd(n):\r\n    n = math.ceil(n)\r\n    if(n%2 == 0):\r\n        return(int(n-1))\r\n    else:\r\n        return(int(n))",
+            "position": "8,1"
+        }
+    ]
+}
