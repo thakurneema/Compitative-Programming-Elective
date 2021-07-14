@@ -1,0 +1,11 @@
+{
+    "getinrange.py": [
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 21:21:05",
+            "keyStrokeInfo": "def fun_getinrange(x, bound1, bound2):\r\n    # your code goes here\r\n    if(x >= bound1 and x <= bound2):\r\n        return x\r\n    elif (x < min(bound1,bound2)):\r\n        return min(bound1,bound2)           # lower bound\r\n    else:\r\n        if(x > max(bound1,bound2)):\r\n            return max(bound1,bound2)       # upper bound\r\n",
+            "position": "7,1"
+        }
+    ]
+}
