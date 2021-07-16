@@ -1,0 +1,32 @@
+{
+    "nearestbusstop.py": [
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 08:21:24",
+            "keyStrokeInfo": "def fun_nearestbusstop(street):\r\n    stop = street%8\r\n    if (street == 0 and street <=4):\r\n        return 0\r\n    elif (stop >= 5):\r\n        return street+(8-stop)\r\n    else:\r\n        if (stop <= 4):\r\n            return street-stop\r\n",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 08:21:32",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 08:21:32",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 08:21:34",
+            "keyStrokeInfo": "\r\n",
+            "position": "7,1"
+        }
+    ]
+}
