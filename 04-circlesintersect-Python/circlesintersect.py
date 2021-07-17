@@ -6,6 +6,6 @@
 
 import math
 def fun_circlesintersect(x1, y1, r1, x2, y2, r2):
-	d = math.sqrt(((x2-x1)**2)+((y2-y1)**2))
+	circle = math.sqrt(((x2-x1)**2)+((y2-y1)**2))
 	# your code goes here
-	return d <= (r1+r2)
+	return circle <= (r1+r2)
