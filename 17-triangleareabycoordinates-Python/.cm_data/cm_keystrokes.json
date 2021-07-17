@@ -503,6 +503,153 @@
             "keyStrokeTimeStamp": "Fri Jul 16 2021 10:10:13",
             "keyStrokeInfo": ")",
             "position": "8,53"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 19:29:41",
+            "keyStrokeInfo": "\r\n\t",
+            "position": "10,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 19:29:41",
+            "keyStrokeInfo": "",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:03",
+            "keyStrokeInfo": "",
+            "position": "8,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:03",
+            "keyStrokeInfo": "",
+            "position": "8,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:04",
+            "keyStrokeInfo": "",
+            "position": "8,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:04",
+            "keyStrokeInfo": "",
+            "position": "8,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:05",
+            "keyStrokeInfo": "s",
+            "position": "8,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:05",
+            "keyStrokeInfo": "p",
+            "position": "8,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:05",
+            "keyStrokeInfo": "a",
+            "position": "8,4"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:05",
+            "keyStrokeInfo": "c",
+            "position": "8,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:05",
+            "keyStrokeInfo": "e",
+            "position": "8,6"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:09",
+            "keyStrokeInfo": "StopAsyncIteration",
+            "position": "8,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:11",
+            "keyStrokeInfo": "space",
+            "position": "8,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:15",
+            "keyStrokeInfo": "",
+            "position": "10,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:15",
+            "keyStrokeInfo": "",
+            "position": "10,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:16",
+            "keyStrokeInfo": "",
+            "position": "10,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:16",
+            "keyStrokeInfo": "",
+            "position": "10,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:17",
+            "keyStrokeInfo": "s",
+            "position": "10,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:17",
+            "keyStrokeInfo": "p",
+            "position": "10,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:17",
+            "keyStrokeInfo": "a",
+            "position": "10,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Jul 17 2021 14:04:17",
+            "keyStrokeInfo": "space",
+            "position": "10,9"
         }
     ]
 }
