@@ -16,4 +16,27 @@
 
 
 def nth_happy_number(n):
-	return 0
+	if n==1:
+		return 1
+	if n==2:
+		return 7
+	first=2;second=8
+	while first<=n:
+		if ishappy(second):
+			first+=1
+		if first==n:
+			return second
+		second+=1
+def ishappy(m):
+	while(m>=10):
+		m=squarenum(m)
+		if(m==1):
+			return True
+	return False
+def squarenum(second):
+	sum=0
+	while(second>0):
+		remainder=second%10
+		sum+=(remainder*remainder)
+		second//=10
+	return sum
