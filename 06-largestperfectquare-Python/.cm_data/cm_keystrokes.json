@@ -706,6 +706,13 @@
             "keyStrokeTimeStamp": "Wed Jul 21 2021 11:03:27",
             "keyStrokeInfo": "0",
             "position": "17,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 11:10:24",
+            "keyStrokeInfo": "\r\n\t",
+            "position": "17,13"
         }
     ]
 }

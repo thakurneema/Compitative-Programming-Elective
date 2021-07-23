@@ -16,3 +16,4 @@ def largestperfectsquare(n):
 	b = a[::-1]
 	return b[0]
 	
+	
