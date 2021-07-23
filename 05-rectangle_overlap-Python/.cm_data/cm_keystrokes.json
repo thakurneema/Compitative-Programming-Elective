@@ -1,0 +1,11 @@
+{
+    "rectangle_overlap.py": [
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 11:49:07",
+            "keyStrokeInfo": "def rectangle_overlap(left1, top1, width1, height1, left2, top2, width2, height2):\r\n   if((left1 > height2 and height1 < left2) or (top1 < width2 and width1 > top2)  ):\r\n       return False\r\n   elif((left1 < height2 and height1 > left2) or (top1 > width2 and width1 < top2) ):\r\n       return True\r\n   return False\r\n",
+            "position": "10,1"
+        }
+    ]
+}
