@@ -19,4 +19,17 @@
 
 def ishappynumber(n):
 	# your code goes here
-	pass
+	if(n==1):
+		return True
+	while (n>=10):
+		n=square(n)
+		if(n==1):
+			return True
+	return False
+def square(a):
+	sum=0
+	while(a>0):
+		remainder=a%10
+		sum+=(remainder*remainder)
+		a//=10
+	return sum
