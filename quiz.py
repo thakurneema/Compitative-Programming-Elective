@@ -6,7 +6,21 @@
 
 def bestQuiz(l):
     # Your  code goes ehre...
-    pass
+    res=[]
+    for i in range(len(l[0])):
+          avg=0
+          cnt=0
+          for j in range(len(l)):
+                if l[j][i]!= -1:
+                      avg+=l[j][i]
+                      cnt+=1
+          if cnt!=0:
+                res.append(avg/cnt)
+    if len(res)<1:
+          return None
+    return res.index(max(res))
+
+   
 
 def testBestQuiz():
     print('Testing bestQuiz()...', end='')
@@ -22,4 +36,4 @@ def testBestQuiz():
     a = [ [-1, -1, -1 ],
           [-1, -1, -1 ]]
     assert(bestQuiz(a) == None)
-    print('All test cases passed...!')
+print('All test cases passed...!')
